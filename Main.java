@@ -57,7 +57,6 @@ public class Main {
         list.addAll(Arrays.stream(arr1).boxed().collect(Collectors.toList()));
         list.sort((a,b)->a-b);
         list.forEach(a->System.out.println(a));
-
-        i++
+        
     }
 }
